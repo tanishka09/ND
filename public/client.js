@@ -19,7 +19,7 @@ btnEnter.onclick = function () {
         roomName = inputRoom.value;
 
         fetch(SERVER_BASE_URL + '/room/' + roomName).then(function (res) {
-            return res.json()
+            return res.text()
         }).then(function (res) {
             apiKey = res.apiKey;
             sessionId = res.sessionId;
