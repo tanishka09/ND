@@ -1,5 +1,7 @@
 // requires
 const express = require('express');
+const port =  process.env.PORT|| 3000;
+const host ="0.0.0.0"
 const app = express();
 var OpenTok = require('opentok');
 
@@ -63,8 +65,13 @@ app.get('/room/:name', function (req, res) {
 });
 
 // listener
-app.listen(3000, function () {
-    console.log('listening on *:3000');
-    console.log(apiKey);
+// app.listen(3000, function () {
+//     console.log('listening on *:3000');
+//     console.log(apiKey);
+// });
+
+
+app.listen(port, host,() => {
+  console.log("Server is up on port " + port);
 });
 
