@@ -9,7 +9,7 @@ var apiKey;
 var sessionId;
 var token;
 var roomName;
-var SERVER_BASE_URL = 'http://localhost:3000';
+var SERVER_BASE_URL = 'https://videochatt07.herokuapp.com/';
 
 // Let's do this
 btnEnter.onclick = function () {
