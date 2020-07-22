@@ -22,8 +22,8 @@ btnEnter.onclick = function () {
             return res.json()
         }).then(function (res) {
             apiKey = res.apiKey;
-            sessionId = res.sessionId;
-            token = res.token;
+            sessionId = "2_MX40Njg1MzI0NH5-MTU5NTQyMTkzNjc4MH5RR1NVZy9mUEFpckluaGRUMmppblNkT01-fg";
+            token = "T1==cGFydG5lcl9pZD00Njg1MzI0NCZzaWc9NDg3NmU3MGFmNjIxZWE5NmI5MzYyNjRmNTdhZjFjOThjZThjMWU1ODpzZXNzaW9uX2lkPTJfTVg0ME5qZzFNekkwTkg1LU1UVTVOVFF5TVRrek5qYzRNSDVSUjFOVlp5OW1VRUZwY2tsdWFHUlVNbXBwYmxOa1QwMS1mZyZjcmVhdGVfdGltZT0xNTk1NDIxOTY2Jm5vbmNlPTAuMTIxNzAyMjQ3NzcxOTQ0MDUmcm9sZT1wdWJsaXNoZXImZXhwaXJlX3RpbWU9MTU5NTQyNTU2NSZpbml0aWFsX2xheW91dF9jbGFzc19saXN0PQ==";
             initializeSession();
         }).catch(handleError);
     }
