@@ -6,8 +6,8 @@ const app = express();
 var OpenTok = require('opentok');
 
 // variables
-var apiKey = "46853244";
-var secret = "c071edbbe1deb3a5edaf44d3e3742ecc4be17d0b";
+var apiKey = process.env.TOKBOX_API_KEY;
+var secret = process.env.TOKBOX_SECRET;
 var rooms = {};
 
 if (!apiKey || !secret) {
