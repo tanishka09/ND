@@ -5,6 +5,7 @@ const host ="0.0.0.0"
 const app = express();
 var OpenTok = require('opentok');
 
+
 // variables
 var apiKey = process.env.TOKBOX_API_KEY;
 var secret = process.env.TOKBOX_SECRET;
