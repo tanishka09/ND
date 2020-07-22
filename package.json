@@ -20,9 +20,12 @@
   },
   "homepage": "https://github.com/agilityfeat/webrtc-video-conference-tutorial#readme",
   "dependencies": {
-    "env-cmd": "^8.0.2",
+  
     "express": "^4.15.4",
     "opentok": "^2.6.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.2"
   },
   "engines": {
     "node": "12.18.1",
